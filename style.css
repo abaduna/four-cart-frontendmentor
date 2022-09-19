@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+body{
+    background-color: rgba(224, 224, 224, 0.865);
+}
+.cabezera{
+    
+   
+    text-align: center;
+    margin: 75px 25px;
+}
+.supervisor{
+    
+    text-align: center;
+    margin: 75px 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px -10px 0px 0px rgba(0,208,255,1);
+    -webkit-box-shadow: 0px -10px 0px 0px rgba(0,208,255,1);
+    -moz-box-shadow: 0px -10px 0px 0px rgba(0,208,255,1);
+    
+}
+.team_builde{
+    
+    text-align: center;
+    margin: 75px 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -10px 0px 0px rgba(217,92,0,1);
+    -webkit-box-shadow: 0px -10px 0px 0px rgba(217,92,0,1);
+    -moz-box-shadow: 0px -10px 0px 0px rgba(217,92,0,1);
+    
+}
+.karma{
+    
+    text-align: center;
+    margin: 75px 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -10px 0px 0px rgba(217,255,0,1);
+    -webkit-box-shadow: 0px -10px 0px 0px rgba(217,255,0,1);
+    -moz-box-shadow: 0px -10px 0px 0px rgba(217,255,0,1);
+    box-shadow: 41px 33px 20px -23px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 41px 33px 20px -23px rgba(0,0,0,0.43);
+}
+.calculator{
+   
+    text-align: center;
+    margin: 75px 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -10px 0px 0px rgba(0,55,255,1);
+    -webkit-box-shadow: 0px -10px 0px 0px rgba(0,55,255,1);
+    -moz-box-shadow: 0px -10px 0px 0px rgba(0,55,255,1);
+    
+}
+.sub-title{
+    color: rgb(135, 135, 135);
+}
+img{
+    margin-left: 80%;
+}
+.cabezera__title{
+    color: rgb(39, 39, 39);
+}
+.cabezera__sub{
+    color: rgb(55, 55, 55);
+}
+@media only screen and (min-width:   1440px) {
+    body {
+      max-width: 95%;
+      justify-content: center;
+    }
+   .cabezera{
+    justify-content: center;
+    font-size: 30px;
+   }
+   main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 32px;
+    align-items: center;
+   }
+   .towcard{
+    width: 600px;
+    
+   }
+   .team_builde,.karma{
+    width: 100%;
+    height: 150px;  
+   }
+   .supervisor{
+    width: 100%;
+    height: 150px;
+   }
+   .calculator{
+    width: 100%;
+    height: 150px;
+   }
+   .attribution{
+    font-size: 25px;
+   }
+  }
+
